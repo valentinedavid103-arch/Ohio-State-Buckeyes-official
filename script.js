@@ -1,14 +1,7 @@
 /* Ohio State Buckeyes — editable demo data. Replace sample players, fixtures, stats and URLs before publishing. */
 const players = []; // No players listed yet; add your roster here when ready.
 const games = [
- {month:'AUG',day:'29',weekday:'SAT',opponent:'Lakeview State',mark:'LS',type:'NON-CONFERENCE',venue:'Home · Ohio Stadium',status:'Home opener'},
- {month:'SEP',day:'05',weekday:'SAT',opponent:'Northern Plains',mark:'NP',type:'NON-CONFERENCE',venue:'Away · Plains Field',status:'Away'},
- {month:'SEP',day:'12',weekday:'SAT',opponent:'Capital Tech',mark:'CT',type:'NON-CONFERENCE',venue:'Home · Ohio Stadium',status:'Home'},
- {month:'SEP',day:'19',weekday:'SAT',opponent:'Midwest University',mark:'MU',type:'CONFERENCE',venue:'Away · Midwest Park',status:'Conference'},
- {month:'SEP',day:'26',weekday:'SAT',opponent:'River City',mark:'RC',type:'CONFERENCE',venue:'Home · Ohio Stadium',status:'Conference'},
- {month:'OCT',day:'03',weekday:'SAT',opponent:'Great Lakes College',mark:'GL',type:'CONFERENCE',venue:'Away · Lakeside Stadium',status:'Conference'},
- {month:'OCT',day:'10',weekday:'SAT',opponent:'Iron Valley',mark:'IV',type:'CONFERENCE',venue:'Home · Ohio Stadium',status:'Home'},
- {month:'OCT',day:'17',weekday:'SAT',opponent:'Pioneer State',mark:'PS',type:'CONFERENCE',venue:'Away · Pioneer Field',status:'Conference'}
+ {month:'',day:'',weekday:'',opponent:'',mark:'',type:'',venue:' · ',status:''},
 ];
 const redirects = {
   recruitingForm: 'https://forms.google.com/',
